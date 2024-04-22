@@ -159,7 +159,7 @@ def modulo_de_pago():
 
 
 #3. Realice un programa que lea tres números, muestre cuál es el mayor y determine si es par o impar.
-def mayor_o_menor():
+def numero_mayor():
     variables= []
     for _ in range(3):
         variable = int(input("agrega los numeros a comparar"))
@@ -172,7 +172,7 @@ def mayor_o_menor():
         else:
             print ("el numero es impar")
 #llamar a la funcion
-#mayor_o_menor()
+#numero_mayor()
 
 
 #4. Confeccione un programa que pida un número del 1 al 7 y diga el día de la semana correspondiente.
@@ -241,5 +241,6 @@ def numeros():
     print("El número mínimo es:", minimo)
 
 #numeros()
+
 
 
